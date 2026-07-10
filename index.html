@@ -1,13 +1,95 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/style.css">
-<html lang="zh-Hant">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Chaoos's site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Chaoos's Site</title>
+
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>I'll put some interesting things here, I guess</h1>
-  <p>This is my first website, so I am going to sketch and pratcie a lot using this site</p>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#current-work">Current Work</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Personal website</p>
+
+      <h1>I'll put some interesting things here, I guess.</h1>
+
+      <p class="intro">
+        This is my first website. I use it to experiment, practice,
+        and document the projects I am working on.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About this site</h2>
+
+      <p>
+        This website is a place for me to practise web development,
+        share technical notes, and document what I learn.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-list">
+        <article class="project-card">
+          <h3>Aethel</h3>
+
+          <p>
+            A terminal-based package for managing files on Google Drive.
+          </p>
+
+          <a
+            href="https://github.com/CCJ-0617/Aethel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h3>HyperLink</h3>
+
+          <p>
+            A C package for automatic configuration and rapid data
+            transfer across different connection types.
+          </p>
+
+          <a
+            href="https://github.com/Chaoos-404/HyperLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="current-work">
+      <h2>Current Work</h2>
+
+      <p>
+        I am currently building the infrastructure required for
+        high-speed, high-load services.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Chaoos</p>
+  </footer>
 </body>
 </html>
